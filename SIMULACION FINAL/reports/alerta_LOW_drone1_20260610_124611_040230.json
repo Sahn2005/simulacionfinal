@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:46:11.040230",
+  "sim_time": 409.6,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "LOW",
+  "description": "Transito normal de personas (horario nocturno)",
+  "position": {
+    "x": 5.29,
+    "y": 14.01,
+    "z": 53.07
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.902,
+      "bbox": [
+        54,
+        153,
+        106,
+        209
+      ],
+      "world_pos": {
+        "x": 5.65,
+        "z": 51.76
+      }
+    }
+  ]
+}

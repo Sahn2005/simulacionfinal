@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-06-10T12:39:19.442619",
+  "sim_time": 42.2,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "HIGH",
+  "description": "Vehiculo sospechoso en zona critica — Seguimiento activado (~4 personas, horario nocturno)",
+  "position": {
+    "x": -7.8,
+    "y": 14.01,
+    "z": 51.48
+  },
+  "detections": [
+    {
+      "class": "grupo_personas",
+      "confidence": 0.72,
+      "bbox": [
+        242,
+        186,
+        319,
+        240
+      ],
+      "world_pos": {
+        "x": -7.45,
+        "z": 59.09
+      }
+    },
+    {
+      "class": "motocicleta",
+      "confidence": 0.725,
+      "bbox": [
+        151,
+        162,
+        227,
+        182
+      ],
+      "world_pos": {
+        "x": -10.83,
+        "z": 49.53
+      }
+    },
+    {
+      "class": "objeto_abandonado",
+      "confidence": 0.84,
+      "bbox": [
+        275,
+        55,
+        323,
+        100
+      ],
+      "world_pos": {
+        "x": -13.63,
+        "z": 55.61
+      }
+    },
+    {
+      "class": "persona",
+      "confidence": 0.782,
+      "bbox": [
+        247,
+        186,
+        262,
+        240
+      ],
+      "world_pos": {
+        "x": -7.45,
+        "z": 59.09
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:49:25.390827",
+  "sim_time": 572.5,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "LOW",
+  "description": "Actividad cotidiana en la via publica (horario nocturno)",
+  "position": {
+    "x": 4.17,
+    "y": 14.0,
+    "z": 8.69
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.666,
+      "bbox": [
+        23,
+        78,
+        86,
+        106
+      ],
+      "world_pos": {
+        "x": -1.95,
+        "z": 13.77
+      }
+    },
+    {
+      "class": "vehiculo",
+      "confidence": 0.73,
+      "bbox": [
+        314,
+        179,
+        376,
+        232
+      ],
+      "world_pos": {
+        "x": 3.61,
+        "z": 12.05
+      }
+    }
+  ]
+}

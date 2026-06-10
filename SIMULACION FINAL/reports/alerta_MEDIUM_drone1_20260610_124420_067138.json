@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:44:20.067138",
+  "sim_time": 318.7,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "MEDIUM",
+  "description": "Vehiculo detenido en zona de alta circulacion (horario nocturno)",
+  "position": {
+    "x": -64.43,
+    "y": 14.02,
+    "z": 28.29
+  },
+  "detections": [
+    {
+      "class": "vehiculo",
+      "confidence": 0.888,
+      "bbox": [
+        104,
+        62,
+        153,
+        82
+      ],
+      "world_pos": {
+        "x": -62.44,
+        "z": 30.12
+      }
+    },
+    {
+      "class": "motocicleta",
+      "confidence": 0.783,
+      "bbox": [
+        319,
+        6,
+        394,
+        56
+      ],
+      "world_pos": {
+        "x": -69.43,
+        "z": 30.78
+      }
+    }
+  ]
+}

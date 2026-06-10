@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:53:45.102017",
+  "sim_time": 785.3,
+  "drone_id": 3,
+  "zone": "central",
+  "risk_level": "LOW",
+  "description": "Transito normal de personas",
+  "position": {
+    "x": -4.34,
+    "y": 14.01,
+    "z": 33.31
+  },
+  "detections": [
+    {
+      "class": "vehiculo",
+      "confidence": 0.752,
+      "bbox": [
+        137,
+        134,
+        193,
+        163
+      ],
+      "world_pos": {
+        "x": -5.21,
+        "z": 26.09
+      }
+    },
+    {
+      "class": "motocicleta",
+      "confidence": 0.638,
+      "bbox": [
+        8,
+        136,
+        72,
+        162
+      ],
+      "world_pos": {
+        "x": -1.51,
+        "z": 37.83
+      }
+    }
+  ]
+}

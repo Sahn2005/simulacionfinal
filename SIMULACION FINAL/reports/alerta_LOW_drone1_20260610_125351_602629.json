@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:53:51.602629",
+  "sim_time": 791.4,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "LOW",
+  "description": "Actividad cotidiana en la via publica",
+  "position": {
+    "x": -25.11,
+    "y": 14.0,
+    "z": 36.43
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.867,
+      "bbox": [
+        325,
+        32,
+        371,
+        59
+      ],
+      "world_pos": {
+        "x": -18.82,
+        "z": 42.37
+      }
+    }
+  ]
+}

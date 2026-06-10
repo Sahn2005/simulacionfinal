@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:51:43.401207",
+  "sim_time": 682.6,
+  "drone_id": 2,
+  "zone": "sur",
+  "risk_level": "HIGH",
+  "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (vehiculo con placa cubierta, horario nocturno, zona: Callejon_Suroeste)",
+  "position": {
+    "x": -67.67,
+    "y": 14.0,
+    "z": -64.05
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.732,
+      "bbox": [
+        256,
+        93,
+        328,
+        133
+      ],
+      "world_pos": {
+        "x": -62.0,
+        "z": -69.63
+      }
+    },
+    {
+      "class": "vehiculo_sospechoso",
+      "confidence": 0.62,
+      "bbox": [
+        69,
+        90,
+        118,
+        126
+      ],
+      "world_pos": {
+        "x": -61.36,
+        "z": -63.68
+      }
+    }
+  ]
+}

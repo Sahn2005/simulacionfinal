@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:42:44.653886",
+  "sim_time": 236.5,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "MEDIUM",
+  "description": "Aglomeracion inusual de personas detectada (horario nocturno)",
+  "position": {
+    "x": -47.88,
+    "y": 14.01,
+    "z": 36.37
+  },
+  "detections": [
+    {
+      "class": "actividad_sospechosa",
+      "confidence": 0.823,
+      "bbox": [
+        8,
+        69,
+        62,
+        108
+      ],
+      "world_pos": {
+        "x": -44.56,
+        "z": 40.44
+      }
+    }
+  ]
+}

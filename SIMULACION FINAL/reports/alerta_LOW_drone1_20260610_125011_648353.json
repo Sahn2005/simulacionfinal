@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:50:11.648353",
+  "sim_time": 606.7,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "LOW",
+  "description": "Transito normal de personas (vehiculo con placa cubierta, horario nocturno)",
+  "position": {
+    "x": -50.36,
+    "y": 14.02,
+    "z": 37.12
+  },
+  "detections": [
+    {
+      "class": "vehiculo_sospechoso",
+      "confidence": 0.605,
+      "bbox": [
+        28,
+        138,
+        80,
+        163
+      ],
+      "world_pos": {
+        "x": -48.06,
+        "z": 33.8
+      }
+    }
+  ]
+}

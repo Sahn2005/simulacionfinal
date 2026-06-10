@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:40:28.795989",
+  "sim_time": 107.8,
+  "drone_id": 2,
+  "zone": "sur",
+  "risk_level": "MEDIUM",
+  "description": "Vehiculo detenido en zona de alta circulacion (horario nocturno, zona: Callejon_Suroeste)",
+  "position": {
+    "x": -68.78,
+    "y": 14.02,
+    "z": -67.21
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.77,
+      "bbox": [
+        114,
+        17,
+        160,
+        54
+      ],
+      "world_pos": {
+        "x": -65.67,
+        "z": -72.06
+      }
+    },
+    {
+      "class": "vehiculo",
+      "confidence": 0.744,
+      "bbox": [
+        18,
+        76,
+        59,
+        122
+      ],
+      "world_pos": {
+        "x": -68.49,
+        "z": -68.87
+      }
+    }
+  ]
+}

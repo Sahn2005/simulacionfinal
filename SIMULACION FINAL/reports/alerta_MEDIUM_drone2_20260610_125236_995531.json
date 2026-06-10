@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:52:36.995531",
+  "sim_time": 728.0,
+  "drone_id": 2,
+  "zone": "sur",
+  "risk_level": "MEDIUM",
+  "description": "Aglomeracion inusual de personas detectada",
+  "position": {
+    "x": 20.39,
+    "y": 14.21,
+    "z": -18.2
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.667,
+      "bbox": [
+        41,
+        105,
+        110,
+        145
+      ],
+      "world_pos": {
+        "x": 17.52,
+        "z": -17.99
+      }
+    },
+    {
+      "class": "actividad_sospechosa",
+      "confidence": 0.796,
+      "bbox": [
+        336,
+        107,
+        397,
+        148
+      ],
+      "world_pos": {
+        "x": 25.69,
+        "z": -24.54
+      }
+    }
+  ]
+}

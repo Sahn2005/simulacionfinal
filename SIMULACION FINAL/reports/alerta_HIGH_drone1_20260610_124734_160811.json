@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:47:34.160811",
+  "sim_time": 478.7,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "HIGH",
+  "description": "Disturbio o altercado detectado — Respuesta requerida (horario nocturno, zona: Bodega_Abandonada)",
+  "position": {
+    "x": -66.25,
+    "y": 14.0,
+    "z": 25.58
+  },
+  "detections": [
+    {
+      "class": "actividad_sospechosa",
+      "confidence": 0.587,
+      "bbox": [
+        10,
+        197,
+        90,
+        212
+      ],
+      "world_pos": {
+        "x": -60.2,
+        "z": 19.24
+      }
+    }
+  ]
+}

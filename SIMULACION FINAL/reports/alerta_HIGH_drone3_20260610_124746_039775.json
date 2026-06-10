@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:47:46.039775",
+  "sim_time": 489.3,
+  "drone_id": 3,
+  "zone": "central",
+  "risk_level": "HIGH",
+  "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (horario nocturno)",
+  "position": {
+    "x": -7.26,
+    "y": 14.0,
+    "z": -2.39
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.842,
+      "bbox": [
+        120,
+        25,
+        150,
+        85
+      ],
+      "world_pos": {
+        "x": -10.05,
+        "z": -1.59
+      }
+    },
+    {
+      "class": "actividad_sospechosa",
+      "confidence": 0.768,
+      "bbox": [
+        152,
+        197,
+        188,
+        222
+      ],
+      "world_pos": {
+        "x": -12.76,
+        "z": -3.03
+      }
+    }
+  ]
+}

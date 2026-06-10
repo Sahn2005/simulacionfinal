@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:52:29.109001",
+  "sim_time": 721.3,
+  "drone_id": 3,
+  "zone": "central",
+  "risk_level": "LOW",
+  "description": "Transito normal de personas (~4 personas)",
+  "position": {
+    "x": 40.73,
+    "y": 14.0,
+    "z": 41.98
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.731,
+      "bbox": [
+        153,
+        43,
+        197,
+        60
+      ],
+      "world_pos": {
+        "x": 46.42,
+        "z": 49.75
+      }
+    },
+    {
+      "class": "grupo_personas",
+      "confidence": 0.673,
+      "bbox": [
+        128,
+        23,
+        177,
+        50
+      ],
+      "world_pos": {
+        "x": 43.33,
+        "z": 40.74
+      }
+    }
+  ]
+}

@@ -1,0 +1,1872 @@
+{
+  "reporte": "Sesion de Vigilancia — Cienaga, Magdalena",
+  "generado": "2026-06-10T12:42:16.782092",
+  "tiempo_simulacion_s": 210.0,
+  "duracion_real": "0:03:45.506203",
+  "total_mensajes": 1885,
+  "total_alertas": 519,
+  "alertas_por_nivel": {
+    "LOW": 309,
+    "MEDIUM": 147,
+    "HIGH": 63
+  },
+  "drones_activos": [
+    1,
+    2,
+    3
+  ],
+  "estado_drones": [
+    {
+      "drone_id": 1,
+      "zone": "norte",
+      "state": "PATROL",
+      "position": {
+        "x": 35.63,
+        "y": 14.01,
+        "z": 30.98
+      },
+      "dist_total": 983.4,
+      "alertas": 362
+    },
+    {
+      "drone_id": 2,
+      "zone": "sur",
+      "state": "PATROL",
+      "position": {
+        "x": 4.35,
+        "y": 14.0,
+        "z": -6.78
+      },
+      "dist_total": 981.8,
+      "alertas": 359
+    },
+    {
+      "drone_id": 3,
+      "zone": "central",
+      "state": "PATROL",
+      "position": {
+        "x": 28.22,
+        "y": 14.0,
+        "z": -39.94
+      },
+      "dist_total": 988.5,
+      "alertas": 358
+    }
+  ],
+  "historial_alertas": [
+    {
+      "timestamp": "2026-06-10T12:41:58.425546",
+      "sim_time": 192.6,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (horario nocturno)",
+      "position": {
+        "x": -43.93,
+        "y": 14.01,
+        "z": 21.22
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.794,
+          "bbox": [
+            180,
+            192,
+            252,
+            234
+          ],
+          "world_pos": {
+            "x": -48.61,
+            "z": 14.44
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.866,
+          "bbox": [
+            133,
+            116,
+            166,
+            140
+          ],
+          "world_pos": {
+            "x": -48.77,
+            "z": 22.84
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:41:58.803027",
+      "sim_time": 193.0,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (horario nocturno)",
+      "position": {
+        "x": -38.45,
+        "y": 14.02,
+        "z": -10.2
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.765,
+          "bbox": [
+            259,
+            15,
+            286,
+            60
+          ],
+          "world_pos": {
+            "x": -44.65,
+            "z": -6.75
+          }
+        },
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.6062,
+          "bbox": [
+            204,
+            20,
+            244,
+            40
+          ],
+          "world_pos": {
+            "x": -43.92,
+            "z": -6.32
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:41:59.131060",
+      "sim_time": 193.3,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -38.55,
+        "y": 14.01,
+        "z": -12.12
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.852,
+          "bbox": [
+            286,
+            13,
+            363,
+            70
+          ],
+          "world_pos": {
+            "x": -42.46,
+            "z": -8.98
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:41:59.440847",
+      "sim_time": 193.6,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Aglomeracion inusual de personas detectada (horario nocturno)",
+      "position": {
+        "x": -38.18,
+        "y": 14.01,
+        "z": 20.93
+      },
+      "detections": [
+        {
+          "class": "actividad_sospechosa",
+          "confidence": 0.613,
+          "bbox": [
+            152,
+            198,
+            183,
+            239
+          ],
+          "world_pos": {
+            "x": -37.37,
+            "z": 28.42
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:41:59.783969",
+      "sim_time": 193.9,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (~4 personas, horario nocturno)",
+      "position": {
+        "x": -36.26,
+        "y": 14.01,
+        "z": 20.83
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.794,
+          "bbox": [
+            211,
+            76,
+            270,
+            93
+          ],
+          "world_pos": {
+            "x": -31.06,
+            "z": 27.91
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.876,
+          "bbox": [
+            169,
+            86,
+            204,
+            115
+          ],
+          "world_pos": {
+            "x": -38.27,
+            "z": 15.39
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.731,
+          "bbox": [
+            216,
+            76,
+            231,
+            93
+          ],
+          "world_pos": {
+            "x": -31.06,
+            "z": 27.91
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:00.123104",
+      "sim_time": 194.2,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (horario nocturno)",
+      "position": {
+        "x": -27.39,
+        "y": 14.0,
+        "z": -62.87
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.771,
+          "bbox": [
+            180,
+            45,
+            257,
+            85
+          ],
+          "world_pos": {
+            "x": -29.04,
+            "z": -57.21
+          }
+        },
+        {
+          "class": "motocicleta",
+          "confidence": 0.724,
+          "bbox": [
+            234,
+            34,
+            306,
+            50
+          ],
+          "world_pos": {
+            "x": -24.24,
+            "z": -68.26
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:00.467190",
+      "sim_time": 194.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (horario nocturno)",
+      "position": {
+        "x": -25.48,
+        "y": 14.02,
+        "z": -62.67
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.887,
+          "bbox": [
+            312,
+            20,
+            332,
+            52
+          ],
+          "world_pos": {
+            "x": -29.31,
+            "z": -63.46
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.962,
+          "bbox": [
+            256,
+            53,
+            319,
+            88
+          ],
+          "world_pos": {
+            "x": -31.13,
+            "z": -68.39
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:00.796602",
+      "sim_time": 194.9,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (~4 personas, horario nocturno)",
+      "position": {
+        "x": -39.05,
+        "y": 14.01,
+        "z": -21.7
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.744,
+          "bbox": [
+            33,
+            168,
+            83,
+            211
+          ],
+          "world_pos": {
+            "x": -43.33,
+            "z": -25.94
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.917,
+          "bbox": [
+            206,
+            36,
+            259,
+            59
+          ],
+          "world_pos": {
+            "x": -38.73,
+            "z": -24.01
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.745,
+          "bbox": [
+            38,
+            168,
+            53,
+            211
+          ],
+          "world_pos": {
+            "x": -43.33,
+            "z": -25.94
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:01.143261",
+      "sim_time": 195.2,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -28.6,
+        "y": 14.01,
+        "z": 20.44
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.701,
+          "bbox": [
+            25,
+            156,
+            80,
+            191
+          ],
+          "world_pos": {
+            "x": -32.63,
+            "z": 23.53
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:01.497253",
+      "sim_time": 195.5,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (~4 personas, horario nocturno)",
+      "position": {
+        "x": -26.69,
+        "y": 14.0,
+        "z": 20.34
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.691,
+          "bbox": [
+            197,
+            95,
+            277,
+            119
+          ],
+          "world_pos": {
+            "x": -25.18,
+            "z": 24.66
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.931,
+          "bbox": [
+            109,
+            27,
+            138,
+            46
+          ],
+          "world_pos": {
+            "x": -29.41,
+            "z": 15.37
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:01.844523",
+      "sim_time": 195.8,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "HIGH",
+      "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (vehiculo con placa cubierta, horario nocturno)",
+      "position": {
+        "x": -17.85,
+        "y": 14.02,
+        "z": -61.87
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.678,
+          "bbox": [
+            260,
+            180,
+            285,
+            225
+          ],
+          "world_pos": {
+            "x": -23.26,
+            "z": -64.18
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.889,
+          "bbox": [
+            138,
+            22,
+            214,
+            56
+          ],
+          "world_pos": {
+            "x": -24.99,
+            "z": -61.19
+          }
+        },
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.879,
+          "bbox": [
+            124,
+            187,
+            162,
+            240
+          ],
+          "world_pos": {
+            "x": -25.65,
+            "z": -68.85
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:02.168795",
+      "sim_time": 196.2,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -23.54,
+        "y": 14.01,
+        "z": 20.18
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.937,
+          "bbox": [
+            136,
+            158,
+            174,
+            213
+          ],
+          "world_pos": {
+            "x": -28.31,
+            "z": 20.69
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:02.524196",
+      "sim_time": 196.5,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (~4 personas, horario nocturno)",
+      "position": {
+        "x": -14.03,
+        "y": 14.01,
+        "z": -61.47
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.855,
+          "bbox": [
+            228,
+            174,
+            274,
+            198
+          ],
+          "world_pos": {
+            "x": -6.06,
+            "z": -61.6
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.892,
+          "bbox": [
+            233,
+            174,
+            248,
+            198
+          ],
+          "world_pos": {
+            "x": -6.06,
+            "z": -61.6
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:02.843077",
+      "sim_time": 196.8,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -20.87,
+        "y": 14.0,
+        "z": 18.29
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.682,
+          "bbox": [
+            320,
+            106,
+            395,
+            129
+          ],
+          "world_pos": {
+            "x": -25.06,
+            "z": 21.05
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:03.167554",
+      "sim_time": 197.1,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (~4 personas, horario nocturno)",
+      "position": {
+        "x": -19.42,
+        "y": 14.02,
+        "z": 17.03
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.651,
+          "bbox": [
+            230,
+            86,
+            287,
+            107
+          ],
+          "world_pos": {
+            "x": -17.19,
+            "z": 11.55
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.882,
+          "bbox": [
+            33,
+            13,
+            68,
+            69
+          ],
+          "world_pos": {
+            "x": -18.81,
+            "z": 14.51
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.804,
+          "bbox": [
+            105,
+            192,
+            131,
+            220
+          ],
+          "world_pos": {
+            "x": -18.23,
+            "z": 16.24
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:03.504273",
+      "sim_time": 197.4,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -17.98,
+        "y": 14.01,
+        "z": 15.77
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.954,
+          "bbox": [
+            210,
+            18,
+            260,
+            60
+          ],
+          "world_pos": {
+            "x": -18.42,
+            "z": 22.22
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:03.846646",
+      "sim_time": 197.8,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -6.4,
+        "y": 14.0,
+        "z": -60.67
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.934,
+          "bbox": [
+            160,
+            84,
+            223,
+            100
+          ],
+          "world_pos": {
+            "x": 1.3,
+            "z": -62.57
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:04.194730",
+      "sim_time": 198.1,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -4.66,
+        "y": 14.02,
+        "z": -60.49
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.911,
+          "bbox": [
+            37,
+            111,
+            91,
+            171
+          ],
+          "world_pos": {
+            "x": 2.62,
+            "z": -65.2
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:04.817222",
+      "sim_time": 198.7,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -12.21,
+        "y": 14.01,
+        "z": 10.71
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.806,
+          "bbox": [
+            94,
+            99,
+            159,
+            115
+          ],
+          "world_pos": {
+            "x": -15.8,
+            "z": 10.74
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:05.173565",
+      "sim_time": 199.0,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -10.77,
+        "y": 14.0,
+        "z": 9.44
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.883,
+          "bbox": [
+            191,
+            79,
+            228,
+            98
+          ],
+          "world_pos": {
+            "x": -14.06,
+            "z": 8.98
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:05.512167",
+      "sim_time": 199.4,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (horario nocturno)",
+      "position": {
+        "x": -9.33,
+        "y": 14.02,
+        "z": 8.18
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.951,
+          "bbox": [
+            260,
+            59,
+            293,
+            113
+          ],
+          "world_pos": {
+            "x": -3.59,
+            "z": 15.51
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.839,
+          "bbox": [
+            9,
+            97,
+            73,
+            126
+          ],
+          "world_pos": {
+            "x": -12.21,
+            "z": 12.25
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:05.844171",
+      "sim_time": 199.7,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (vehiculo con placa cubierta, horario nocturno)",
+      "position": {
+        "x": -7.89,
+        "y": 14.02,
+        "z": 6.91
+      },
+      "detections": [
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.571,
+          "bbox": [
+            154,
+            155,
+            193,
+            174
+          ],
+          "world_pos": {
+            "x": -1.39,
+            "z": 8.19
+          }
+        },
+        {
+          "class": "motocicleta",
+          "confidence": 0.722,
+          "bbox": [
+            160,
+            112,
+            199,
+            141
+          ],
+          "world_pos": {
+            "x": -0.2,
+            "z": 12.04
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:06.529142",
+      "sim_time": 200.3,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Aglomeracion inusual de personas detectada (vehiculo con placa cubierta, horario nocturno)",
+      "position": {
+        "x": -5.0,
+        "y": 14.0,
+        "z": 4.39
+      },
+      "detections": [
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.88,
+          "bbox": [
+            20,
+            20,
+            90,
+            90
+          ],
+          "world_pos": {
+            "x": -5.0,
+            "z": 4.39
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:06.869257",
+      "sim_time": 200.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -2.34,
+        "y": 14.02,
+        "z": -47.68
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.816,
+          "bbox": [
+            288,
+            12,
+            351,
+            50
+          ],
+          "world_pos": {
+            "x": 0.27,
+            "z": -39.72
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:07.205183",
+      "sim_time": 201.0,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Aglomeracion inusual de personas detectada (horario nocturno)",
+      "position": {
+        "x": -2.65,
+        "y": 14.02,
+        "z": 2.32
+      },
+      "detections": [
+        {
+          "class": "actividad_sospechosa",
+          "confidence": 0.839,
+          "bbox": [
+            227,
+            131,
+            272,
+            178
+          ],
+          "world_pos": {
+            "x": -6.12,
+            "z": 7.35
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:07.543270",
+      "sim_time": 201.3,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -2.16,
+        "y": 14.01,
+        "z": -43.85
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.671,
+          "bbox": [
+            251,
+            173,
+            293,
+            226
+          ],
+          "world_pos": {
+            "x": -6.54,
+            "z": -48.64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:07.892298",
+      "sim_time": 201.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "HIGH",
+      "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (~3 personas, horario nocturno)",
+      "position": {
+        "x": -2.06,
+        "y": 14.0,
+        "z": -41.93
+      },
+      "detections": [
+        {
+          "class": "disturbio",
+          "confidence": 0.587,
+          "bbox": [
+            170,
+            5,
+            230,
+            59
+          ],
+          "world_pos": {
+            "x": -3.96,
+            "z": -39.59
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.738,
+          "bbox": [
+            170,
+            5,
+            230,
+            59
+          ],
+          "world_pos": {
+            "x": -3.96,
+            "z": -39.59
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:08.573357",
+      "sim_time": 202.2,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -1.87,
+        "y": 14.01,
+        "z": -38.1
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.973,
+          "bbox": [
+            58,
+            125,
+            113,
+            159
+          ],
+          "world_pos": {
+            "x": -7.18,
+            "z": -44.02
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:08.908724",
+      "sim_time": 202.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "HIGH",
+      "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (~4 personas, horario nocturno)",
+      "position": {
+        "x": -1.78,
+        "y": 14.01,
+        "z": -36.18
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.879,
+          "bbox": [
+            334,
+            134,
+            392,
+            175
+          ],
+          "world_pos": {
+            "x": -4.62,
+            "z": -33.76
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.783,
+          "bbox": [
+            277,
+            12,
+            322,
+            64
+          ],
+          "world_pos": {
+            "x": -9.21,
+            "z": -32.91
+          }
+        },
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.5956999999999999,
+          "bbox": [
+            107,
+            96,
+            144,
+            132
+          ],
+          "world_pos": {
+            "x": 1.02,
+            "z": -37.3
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:09.243289",
+      "sim_time": 202.9,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (horario nocturno)",
+      "position": {
+        "x": 5.04,
+        "y": 14.0,
+        "z": 9.59
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.5992,
+          "bbox": [
+            19,
+            123,
+            85,
+            179
+          ],
+          "world_pos": {
+            "x": 10.69,
+            "z": 2.84
+          }
+        },
+        {
+          "class": "motocicleta",
+          "confidence": 0.676,
+          "bbox": [
+            196,
+            164,
+            253,
+            207
+          ],
+          "world_pos": {
+            "x": 0.42,
+            "z": 6.16
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:09.938407",
+      "sim_time": 203.5,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -4.79,
+        "y": 14.01,
+        "z": -39.64
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.749,
+          "bbox": [
+            50,
+            45,
+            93,
+            93
+          ],
+          "world_pos": {
+            "x": -3.67,
+            "z": -32.52
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:10.277075",
+      "sim_time": 203.8,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (vehiculo con placa cubierta, horario nocturno)",
+      "position": {
+        "x": 9.01,
+        "y": 14.01,
+        "z": 13.74
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.713,
+          "bbox": [
+            32,
+            34,
+            110,
+            73
+          ],
+          "world_pos": {
+            "x": 2.96,
+            "z": 14.43
+          }
+        },
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.722,
+          "bbox": [
+            12,
+            26,
+            80,
+            43
+          ],
+          "world_pos": {
+            "x": 14.39,
+            "z": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:10.614350",
+      "sim_time": 204.2,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -1.31,
+        "y": 14.0,
+        "z": -26.61
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.9,
+          "bbox": [
+            310,
+            127,
+            338,
+            187
+          ],
+          "world_pos": {
+            "x": 4.91,
+            "z": -29.61
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:10.948951",
+      "sim_time": 204.5,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 11.59,
+        "y": 14.02,
+        "z": 16.44
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.888,
+          "bbox": [
+            205,
+            98,
+            254,
+            150
+          ],
+          "world_pos": {
+            "x": 13.8,
+            "z": 8.99
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:11.638293",
+      "sim_time": 205.1,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 3.77,
+        "y": 14.0,
+        "z": -39.81
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.796,
+          "bbox": [
+            318,
+            144,
+            390,
+            171
+          ],
+          "world_pos": {
+            "x": -0.9,
+            "z": -45.42
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:11.966481",
+      "sim_time": 205.4,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 15.68,
+        "y": 14.0,
+        "z": 18.19
+      },
+      "detections": [
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.61,
+          "bbox": [
+            61,
+            59,
+            112,
+            95
+          ],
+          "world_pos": {
+            "x": 11.25,
+            "z": 14.92
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:12.297844",
+      "sim_time": 205.8,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 17.59,
+        "y": 14.02,
+        "z": 18.43
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.789,
+          "bbox": [
+            239,
+            145,
+            317,
+            181
+          ],
+          "world_pos": {
+            "x": 24.44,
+            "z": 26.09
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:12.644067",
+      "sim_time": 206.1,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 19.49,
+        "y": 14.01,
+        "z": 18.67
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.885,
+          "bbox": [
+            43,
+            26,
+            98,
+            81
+          ],
+          "world_pos": {
+            "x": 18.96,
+            "z": 23.46
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:12.982039",
+      "sim_time": 206.4,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -0.65,
+        "y": 14.01,
+        "z": -13.2
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.816,
+          "bbox": [
+            214,
+            12,
+            276,
+            69
+          ],
+          "world_pos": {
+            "x": -7.66,
+            "z": -11.68
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:13.298969",
+      "sim_time": 206.7,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (~4 personas, horario nocturno)",
+      "position": {
+        "x": 13.36,
+        "y": 14.02,
+        "z": -39.86
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.82,
+          "bbox": [
+            156,
+            184,
+            208,
+            230
+          ],
+          "world_pos": {
+            "x": 13.56,
+            "z": -34.94
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.749,
+          "bbox": [
+            219,
+            76,
+            249,
+            102
+          ],
+          "world_pos": {
+            "x": 13.54,
+            "z": -42.58
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:13.634279",
+      "sim_time": 207.0,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -0.46,
+        "y": 14.02,
+        "z": -9.37
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.895,
+          "bbox": [
+            321,
+            125,
+            341,
+            171
+          ],
+          "world_pos": {
+            "x": -2.95,
+            "z": -9.42
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:13.977268",
+      "sim_time": 207.4,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 26.45,
+        "y": 14.01,
+        "z": 19.55
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.836,
+          "bbox": [
+            339,
+            174,
+            374,
+            227
+          ],
+          "world_pos": {
+            "x": 25.96,
+            "z": 20.14
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:14.310916",
+      "sim_time": 207.7,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 27.54,
+        "y": 14.01,
+        "z": 20.27
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.879,
+          "bbox": [
+            219,
+            169,
+            241,
+            215
+          ],
+          "world_pos": {
+            "x": 26.12,
+            "z": 23.13
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:14.661308",
+      "sim_time": 208.0,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (~4 personas, horario nocturno)",
+      "position": {
+        "x": 28.69,
+        "y": 14.0,
+        "z": 21.8
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.665,
+          "bbox": [
+            235,
+            55,
+            255,
+            79
+          ],
+          "world_pos": {
+            "x": 32.17,
+            "z": 21.8
+          }
+        },
+        {
+          "class": "motocicleta",
+          "confidence": 0.672,
+          "bbox": [
+            222,
+            182,
+            262,
+            206
+          ],
+          "world_pos": {
+            "x": 27.1,
+            "z": 14.21
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.899,
+          "bbox": [
+            240,
+            55,
+            255,
+            79
+          ],
+          "world_pos": {
+            "x": 32.17,
+            "z": 21.8
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:14.985029",
+      "sim_time": 208.3,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": -0.04,
+        "y": 14.02,
+        "z": -3.07
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.708,
+          "bbox": [
+            73,
+            62,
+            110,
+            99
+          ],
+          "world_pos": {
+            "x": 4.23,
+            "z": -8.22
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:15.330200",
+      "sim_time": 208.6,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (vehiculo con placa cubierta, horario nocturno)",
+      "position": {
+        "x": 31.0,
+        "y": 14.01,
+        "z": 24.86
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.793,
+          "bbox": [
+            338,
+            82,
+            394,
+            106
+          ],
+          "world_pos": {
+            "x": 31.07,
+            "z": 21.29
+          }
+        },
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.853,
+          "bbox": [
+            176,
+            195,
+            216,
+            234
+          ],
+          "world_pos": {
+            "x": 30.17,
+            "z": 19.66
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:15.669917",
+      "sim_time": 209.0,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (vehiculo con placa cubierta, horario nocturno)",
+      "position": {
+        "x": 2.89,
+        "y": 14.01,
+        "z": -5.55
+      },
+      "detections": [
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.627,
+          "bbox": [
+            326,
+            92,
+            372,
+            119
+          ],
+          "world_pos": {
+            "x": -2.36,
+            "z": -6.74
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:16.002192",
+      "sim_time": 209.3,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 4.35,
+        "y": 14.0,
+        "z": -6.78
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.67,
+          "bbox": [
+            141,
+            190,
+            181,
+            216
+          ],
+          "world_pos": {
+            "x": 7.63,
+            "z": -5.75
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:16.342195",
+      "sim_time": 209.6,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (horario nocturno)",
+      "position": {
+        "x": 34.47,
+        "y": 14.02,
+        "z": 29.45
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.842,
+          "bbox": [
+            34,
+            153,
+            74,
+            193
+          ],
+          "world_pos": {
+            "x": 30.38,
+            "z": 33.9
+          }
+        },
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.749,
+          "bbox": [
+            87,
+            86,
+            160,
+            124
+          ],
+          "world_pos": {
+            "x": 28.71,
+            "z": 24.17
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:42:16.684370",
+      "sim_time": 209.9,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (horario nocturno)",
+      "position": {
+        "x": 35.63,
+        "y": 14.01,
+        "z": 30.98
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.783,
+          "bbox": [
+            210,
+            60,
+            263,
+            107
+          ],
+          "world_pos": {
+            "x": 33.33,
+            "z": 24.85
+          }
+        }
+      ]
+    }
+  ]
+}

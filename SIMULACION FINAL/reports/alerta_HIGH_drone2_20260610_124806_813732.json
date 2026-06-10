@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-06-10T12:48:06.813732",
+  "sim_time": 508.2,
+  "drone_id": 2,
+  "zone": "sur",
+  "risk_level": "HIGH",
+  "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (horario nocturno)",
+  "position": {
+    "x": 44.21,
+    "y": 14.0,
+    "z": -19.88
+  },
+  "detections": [
+    {
+      "class": "vehiculo",
+      "confidence": 0.734,
+      "bbox": [
+        16,
+        117,
+        55,
+        134
+      ],
+      "world_pos": {
+        "x": 44.6,
+        "z": -15.87
+      }
+    },
+    {
+      "class": "motocicleta",
+      "confidence": 0.859,
+      "bbox": [
+        76,
+        8,
+        96,
+        59
+      ],
+      "world_pos": {
+        "x": 38.44,
+        "z": -14.56
+      }
+    },
+    {
+      "class": "objeto_abandonado",
+      "confidence": 0.817,
+      "bbox": [
+        213,
+        106,
+        277,
+        162
+      ],
+      "world_pos": {
+        "x": 50.38,
+        "z": -26.84
+      }
+    }
+  ]
+}

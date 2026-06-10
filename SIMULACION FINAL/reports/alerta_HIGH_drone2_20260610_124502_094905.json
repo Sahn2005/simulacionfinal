@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-06-10T12:45:02.094905",
+  "sim_time": 355.5,
+  "drone_id": 2,
+  "zone": "sur",
+  "risk_level": "HIGH",
+  "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (horario nocturno, zona: Callejon_Suroeste)",
+  "position": {
+    "x": -68.4,
+    "y": 14.01,
+    "z": -67.17
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.784,
+      "bbox": [
+        47,
+        49,
+        106,
+        109
+      ],
+      "world_pos": {
+        "x": -62.33,
+        "z": -64.15
+      }
+    },
+    {
+      "class": "motocicleta",
+      "confidence": 0.827,
+      "bbox": [
+        55,
+        8,
+        116,
+        42
+      ],
+      "world_pos": {
+        "x": -62.63,
+        "z": -64.92
+      }
+    },
+    {
+      "class": "objeto_abandonado",
+      "confidence": 0.657,
+      "bbox": [
+        199,
+        90,
+        231,
+        106
+      ],
+      "world_pos": {
+        "x": -61.88,
+        "z": -67.86
+      }
+    }
+  ]
+}

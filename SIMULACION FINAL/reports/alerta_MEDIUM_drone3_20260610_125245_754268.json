@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:52:45.754268",
+  "sim_time": 735.7,
+  "drone_id": 3,
+  "zone": "central",
+  "risk_level": "MEDIUM",
+  "description": "Aglomeracion inusual de personas detectada (vehiculo con placa cubierta)",
+  "position": {
+    "x": -2.15,
+    "y": 14.01,
+    "z": 7.35
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.738,
+      "bbox": [
+        103,
+        175,
+        159,
+        191
+      ],
+      "world_pos": {
+        "x": 0.05,
+        "z": 5.43
+      }
+    },
+    {
+      "class": "vehiculo_sospechoso",
+      "confidence": 0.748,
+      "bbox": [
+        137,
+        30,
+        160,
+        60
+      ],
+      "world_pos": {
+        "x": 2.98,
+        "z": 0.79
+      }
+    }
+  ]
+}

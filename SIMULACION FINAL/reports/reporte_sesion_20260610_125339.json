@@ -1,0 +1,1746 @@
+{
+  "reporte": "Sesion de Vigilancia — Cienaga, Magdalena",
+  "generado": "2026-06-10T12:53:39.582143",
+  "tiempo_simulacion_s": 780.0,
+  "duracion_real": "0:15:08.306254",
+  "total_mensajes": 7077,
+  "total_alertas": 1925,
+  "alertas_por_nivel": {
+    "LOW": 1191,
+    "MEDIUM": 539,
+    "HIGH": 195
+  },
+  "drones_activos": [
+    1,
+    2,
+    3
+  ],
+  "estado_drones": [
+    {
+      "drone_id": 1,
+      "zone": "norte",
+      "state": "PATROL",
+      "position": {
+        "x": 33.28,
+        "y": 14.01,
+        "z": 56.01
+      },
+      "dist_total": 3397.6,
+      "alertas": 1219
+    },
+    {
+      "drone_id": 2,
+      "zone": "sur",
+      "state": "PATROL",
+      "position": {
+        "x": -64.97,
+        "y": 14.01,
+        "z": -57.18
+      },
+      "dist_total": 3372.6,
+      "alertas": 1233
+    },
+    {
+      "drone_id": 3,
+      "zone": "central",
+      "state": "PATROL",
+      "position": {
+        "x": 25.82,
+        "y": 14.02,
+        "z": 41.24
+      },
+      "dist_total": 3630.4,
+      "alertas": 1328
+    }
+  ],
+  "historial_alertas": [
+    {
+      "timestamp": "2026-06-10T12:53:16.725578",
+      "sim_time": 761.0,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 45.08,
+        "y": 14.01,
+        "z": 17.13
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.912,
+          "bbox": [
+            133,
+            196,
+            192,
+            216
+          ],
+          "world_pos": {
+            "x": 46.78,
+            "z": 20.26
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:17.210775",
+      "sim_time": 761.3,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 16.65,
+        "y": 14.0,
+        "z": -32.47
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.685,
+          "bbox": [
+            50,
+            133,
+            123,
+            162
+          ],
+          "world_pos": {
+            "x": 17.01,
+            "z": -29.27
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:17.966716",
+      "sim_time": 761.9,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 13.02,
+        "y": 14.02,
+        "z": -31.23
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.693,
+          "bbox": [
+            334,
+            121,
+            395,
+            179
+          ],
+          "world_pos": {
+            "x": 5.98,
+            "z": -32.35
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:18.466269",
+      "sim_time": 762.2,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": 11.2,
+        "y": 14.01,
+        "z": -30.62
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.746,
+          "bbox": [
+            63,
+            132,
+            116,
+            173
+          ],
+          "world_pos": {
+            "x": 7.16,
+            "z": -25.57
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.804,
+          "bbox": [
+            68,
+            132,
+            83,
+            173
+          ],
+          "world_pos": {
+            "x": 7.16,
+            "z": -25.57
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:18.956585",
+      "sim_time": 762.6,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "MEDIUM",
+      "description": "Aglomeracion inusual de personas detectada (vehiculo con placa cubierta)",
+      "position": {
+        "x": 49.17,
+        "y": 14.0,
+        "z": 25.81
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.901,
+          "bbox": [
+            198,
+            98,
+            237,
+            125
+          ],
+          "world_pos": {
+            "x": 46.11,
+            "z": 24.66
+          }
+        },
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.864,
+          "bbox": [
+            76,
+            3,
+            143,
+            57
+          ],
+          "world_pos": {
+            "x": 48.38,
+            "z": 30.52
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:19.396961",
+      "sim_time": 762.9,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 7.57,
+        "y": 14.02,
+        "z": -29.38
+      },
+      "detections": [
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.4648,
+          "bbox": [
+            185,
+            28,
+            242,
+            65
+          ],
+          "world_pos": {
+            "x": 6.87,
+            "z": -35.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:20.437691",
+      "sim_time": 763.8,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 2.12,
+        "y": 14.0,
+        "z": -27.53
+      },
+      "detections": [
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.664,
+          "bbox": [
+            319,
+            51,
+            387,
+            96
+          ],
+          "world_pos": {
+            "x": 3.85,
+            "z": -29.44
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:20.790659",
+      "sim_time": 764.2,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": 0.31,
+        "y": 14.02,
+        "z": -26.91
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.912,
+          "bbox": [
+            141,
+            141,
+            178,
+            172
+          ],
+          "world_pos": {
+            "x": 6.21,
+            "z": -20.99
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.767,
+          "bbox": [
+            146,
+            141,
+            161,
+            172
+          ],
+          "world_pos": {
+            "x": 6.21,
+            "z": -20.99
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:21.130293",
+      "sim_time": 764.5,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": -1.51,
+        "y": 14.01,
+        "z": -26.29
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.837,
+          "bbox": [
+            235,
+            28,
+            310,
+            54
+          ],
+          "world_pos": {
+            "x": 1.43,
+            "z": -28.26
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.795,
+          "bbox": [
+            240,
+            28,
+            255,
+            54
+          ],
+          "world_pos": {
+            "x": 1.43,
+            "z": -28.26
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:21.805721",
+      "sim_time": 765.1,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 55.71,
+        "y": 14.02,
+        "z": 39.68
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.671,
+          "bbox": [
+            87,
+            71,
+            165,
+            131
+          ],
+          "world_pos": {
+            "x": 63.41,
+            "z": 41.61
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:22.574030",
+      "sim_time": 765.8,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 57.35,
+        "y": 14.01,
+        "z": 43.15
+      },
+      "detections": [
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.741,
+          "bbox": [
+            316,
+            198,
+            394,
+            225
+          ],
+          "world_pos": {
+            "x": 62.95,
+            "z": 51.08
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:23.101403",
+      "sim_time": 766.1,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 58.16,
+        "y": 14.0,
+        "z": 44.89
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.8,
+          "bbox": [
+            317,
+            59,
+            382,
+            97
+          ],
+          "world_pos": {
+            "x": 51.93,
+            "z": 42.42
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:23.581841",
+      "sim_time": 766.4,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -12.4,
+        "y": 14.0,
+        "z": -22.59
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.773,
+          "bbox": [
+            255,
+            110,
+            294,
+            147
+          ],
+          "world_pos": {
+            "x": -16.95,
+            "z": -23.63
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:23.985169",
+      "sim_time": 766.7,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -14.22,
+        "y": 14.02,
+        "z": -21.97
+      },
+      "detections": [
+        {
+          "class": "actividad_sospechosa",
+          "confidence": 0.592,
+          "bbox": [
+            217,
+            8,
+            283,
+            55
+          ],
+          "world_pos": {
+            "x": -17.69,
+            "z": -19.9
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:24.689393",
+      "sim_time": 767.4,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -16.96,
+        "y": 14.01,
+        "z": -21.03
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.706,
+          "bbox": [
+            213,
+            28,
+            254,
+            80
+          ],
+          "world_pos": {
+            "x": -10.74,
+            "z": -28.34
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:25.119485",
+      "sim_time": 767.7,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -18.65,
+        "y": 14.0,
+        "z": -20.88
+      },
+      "detections": [
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.567,
+          "bbox": [
+            162,
+            20,
+            214,
+            44
+          ],
+          "world_pos": {
+            "x": -19.26,
+            "z": -20.13
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:25.644389",
+      "sim_time": 768.0,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": -20.56,
+        "y": 14.02,
+        "z": -20.78
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.701,
+          "bbox": [
+            28,
+            130,
+            90,
+            176
+          ],
+          "world_pos": {
+            "x": -16.01,
+            "z": -19.42
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.808,
+          "bbox": [
+            33,
+            130,
+            48,
+            176
+          ],
+          "world_pos": {
+            "x": -16.01,
+            "z": -19.42
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:26.174188",
+      "sim_time": 768.3,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": 63.89,
+        "y": 14.01,
+        "z": 57.03
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.863,
+          "bbox": [
+            20,
+            187,
+            67,
+            233
+          ],
+          "world_pos": {
+            "x": 56.97,
+            "z": 62.33
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.626,
+          "bbox": [
+            224,
+            186,
+            290,
+            236
+          ],
+          "world_pos": {
+            "x": 57.55,
+            "z": 64.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:26.648021",
+      "sim_time": 768.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -24.39,
+        "y": 14.01,
+        "z": -20.57
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.695,
+          "bbox": [
+            92,
+            128,
+            132,
+            159
+          ],
+          "world_pos": {
+            "x": -22.57,
+            "z": -20.73
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:27.077307",
+      "sim_time": 769.0,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -26.31,
+        "y": 14.0,
+        "z": -20.47
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.872,
+          "bbox": [
+            31,
+            65,
+            83,
+            84
+          ],
+          "world_pos": {
+            "x": -34.16,
+            "z": -28.37
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:27.439174",
+      "sim_time": 769.3,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Aglomeracion inusual de personas detectada (vehiculo con placa cubierta)",
+      "position": {
+        "x": 35.36,
+        "y": 14.42,
+        "z": 30.61
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.961,
+          "bbox": [
+            71,
+            57,
+            140,
+            83
+          ],
+          "world_pos": {
+            "x": 39.12,
+            "z": 33.69
+          }
+        },
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.803,
+          "bbox": [
+            133,
+            17,
+            163,
+            57
+          ],
+          "world_pos": {
+            "x": 38.98,
+            "z": 35.14
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:27.798102",
+      "sim_time": 769.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -30.04,
+        "y": 14.01,
+        "z": -20.27
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.906,
+          "bbox": [
+            222,
+            171,
+            297,
+            211
+          ],
+          "world_pos": {
+            "x": -31.02,
+            "z": -14.4
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:28.110820",
+      "sim_time": 769.9,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 37.68,
+        "y": 14.36,
+        "z": 33.67
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.74,
+          "bbox": [
+            145,
+            192,
+            180,
+            218
+          ],
+          "world_pos": {
+            "x": 31.4,
+            "z": 39.22
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:28.479628",
+      "sim_time": 770.2,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "MEDIUM",
+      "description": "Aglomeracion inusual de personas detectada (zona: Periferia_Noreste)",
+      "position": {
+        "x": 68.5,
+        "y": 14.02,
+        "z": 66.81
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.606,
+          "bbox": [
+            238,
+            89,
+            307,
+            114
+          ],
+          "world_pos": {
+            "x": 64.86,
+            "z": 72.31
+          }
+        },
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.747,
+          "bbox": [
+            203,
+            86,
+            245,
+            137
+          ],
+          "world_pos": {
+            "x": 62.64,
+            "z": 62.55
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:28.829561",
+      "sim_time": 770.6,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 39.99,
+        "y": 14.3,
+        "z": 36.73
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.888,
+          "bbox": [
+            157,
+            126,
+            215,
+            168
+          ],
+          "world_pos": {
+            "x": 37.88,
+            "z": 35.43
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:29.161453",
+      "sim_time": 770.9,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -36.56,
+        "y": 14.01,
+        "z": -21.12
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.828,
+          "bbox": [
+            290,
+            82,
+            354,
+            115
+          ],
+          "world_pos": {
+            "x": -28.8,
+            "z": -23.39
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:29.524252",
+      "sim_time": 771.2,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (vehiculo con placa cubierta)",
+      "position": {
+        "x": -38.44,
+        "y": 14.01,
+        "z": -21.51
+      },
+      "detections": [
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.678,
+          "bbox": [
+            195,
+            28,
+            244,
+            83
+          ],
+          "world_pos": {
+            "x": -41.14,
+            "z": -13.91
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:29.845410",
+      "sim_time": 771.5,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": 43.45,
+        "y": 14.21,
+        "z": 41.32
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.793,
+          "bbox": [
+            149,
+            135,
+            175,
+            166
+          ],
+          "world_pos": {
+            "x": 49.78,
+            "z": 44.65
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.744,
+          "bbox": [
+            154,
+            135,
+            169,
+            166
+          ],
+          "world_pos": {
+            "x": 49.78,
+            "z": 44.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:30.199686",
+      "sim_time": 771.8,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 44.61,
+        "y": 14.18,
+        "z": 42.85
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.795,
+          "bbox": [
+            101,
+            107,
+            145,
+            153
+          ],
+          "world_pos": {
+            "x": 36.63,
+            "z": 42.69
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:30.547436",
+      "sim_time": 772.2,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -44.07,
+        "y": 14.01,
+        "z": -22.7
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.686,
+          "bbox": [
+            243,
+            55,
+            298,
+            86
+          ],
+          "world_pos": {
+            "x": -37.3,
+            "z": -14.78
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:30.878468",
+      "sim_time": 772.5,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 46.88,
+        "y": 14.12,
+        "z": 45.87
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.759,
+          "bbox": [
+            136,
+            70,
+            164,
+            96
+          ],
+          "world_pos": {
+            "x": 42.26,
+            "z": 41.25
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:31.285526",
+      "sim_time": 772.8,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 47.74,
+        "y": 14.09,
+        "z": 47.01
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.848,
+          "bbox": [
+            96,
+            90,
+            122,
+            147
+          ],
+          "world_pos": {
+            "x": 52.15,
+            "z": 52.25
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:31.633449",
+      "sim_time": 773.1,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -49.67,
+        "y": 14.02,
+        "z": -23.88
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.902,
+          "bbox": [
+            192,
+            29,
+            238,
+            83
+          ],
+          "world_pos": {
+            "x": -55.07,
+            "z": -24.14
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:32.004390",
+      "sim_time": 773.4,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (~4 personas)",
+      "position": {
+        "x": 49.91,
+        "y": 14.03,
+        "z": 49.41
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.761,
+          "bbox": [
+            169,
+            183,
+            190,
+            208
+          ],
+          "world_pos": {
+            "x": 56.45,
+            "z": 46.97
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.607,
+          "bbox": [
+            74,
+            117,
+            129,
+            176
+          ],
+          "world_pos": {
+            "x": 52.26,
+            "z": 54.3
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.832,
+          "bbox": [
+            19,
+            32,
+            47,
+            87
+          ],
+          "world_pos": {
+            "x": 43.1,
+            "z": 45.78
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:32.379864",
+      "sim_time": 773.8,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 51.23,
+        "y": 14.0,
+        "z": 50.8
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.713,
+          "bbox": [
+            332,
+            118,
+            400,
+            137
+          ],
+          "world_pos": {
+            "x": 56.14,
+            "z": 44.5
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:32.694726",
+      "sim_time": 774.1,
+      "drone_id": 3,
+      "zone": "central",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 52.96,
+        "y": 14.02,
+        "z": 52.28
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.919,
+          "bbox": [
+            270,
+            143,
+            341,
+            158
+          ],
+          "world_pos": {
+            "x": 50.94,
+            "z": 52.79
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:33.451194",
+      "sim_time": 774.7,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas",
+      "position": {
+        "x": -54.28,
+        "y": 14.01,
+        "z": -29.96
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.911,
+          "bbox": [
+            282,
+            112,
+            329,
+            163
+          ],
+          "world_pos": {
+            "x": -46.72,
+            "z": -24.57
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.91,
+          "bbox": [
+            293,
+            134,
+            359,
+            186
+          ],
+          "world_pos": {
+            "x": -57.15,
+            "z": -23.09
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:33.794294",
+      "sim_time": 775.0,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas",
+      "position": {
+        "x": -54.98,
+        "y": 14.0,
+        "z": -31.74
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.921,
+          "bbox": [
+            182,
+            51,
+            216,
+            76
+          ],
+          "world_pos": {
+            "x": -53.09,
+            "z": -30.2
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.91,
+          "bbox": [
+            104,
+            38,
+            163,
+            81
+          ],
+          "world_pos": {
+            "x": -47.55,
+            "z": -36.41
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:34.480787",
+      "sim_time": 775.7,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": -56.38,
+        "y": 14.02,
+        "z": -35.31
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.753,
+          "bbox": [
+            281,
+            44,
+            320,
+            64
+          ],
+          "world_pos": {
+            "x": -62.67,
+            "z": -43.1
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.721,
+          "bbox": [
+            286,
+            44,
+            301,
+            64
+          ],
+          "world_pos": {
+            "x": -62.67,
+            "z": -43.1
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:34.826490",
+      "sim_time": 776.0,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -57.08,
+        "y": 14.01,
+        "z": -37.1
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.77,
+          "bbox": [
+            198,
+            110,
+            249,
+            128
+          ],
+          "world_pos": {
+            "x": -59.76,
+            "z": -34.66
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:35.190404",
+      "sim_time": 776.3,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (vehiculo con placa cubierta)",
+      "position": {
+        "x": 54.31,
+        "y": 14.0,
+        "z": 57.62
+      },
+      "detections": [
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.668,
+          "bbox": [
+            44,
+            21,
+            71,
+            71
+          ],
+          "world_pos": {
+            "x": 53.75,
+            "z": 59.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:35.511932",
+      "sim_time": 776.6,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 52.4,
+        "y": 14.02,
+        "z": 57.48
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.808,
+          "bbox": [
+            87,
+            154,
+            111,
+            194
+          ],
+          "world_pos": {
+            "x": 53.69,
+            "z": 54.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:35.873418",
+      "sim_time": 777.0,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": -59.18,
+        "y": 14.02,
+        "z": -42.45
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.907,
+          "bbox": [
+            180,
+            86,
+            203,
+            110
+          ],
+          "world_pos": {
+            "x": -57.73,
+            "z": -35.84
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.792,
+          "bbox": [
+            185,
+            86,
+            200,
+            110
+          ],
+          "world_pos": {
+            "x": -57.73,
+            "z": -35.84
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:36.217874",
+      "sim_time": 777.3,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -59.88,
+        "y": 14.01,
+        "z": -44.24
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.753,
+          "bbox": [
+            69,
+            106,
+            106,
+            165
+          ],
+          "world_pos": {
+            "x": -53.33,
+            "z": -38.45
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:36.599357",
+      "sim_time": 777.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -60.59,
+        "y": 14.0,
+        "z": -46.02
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.944,
+          "bbox": [
+            1,
+            149,
+            71,
+            166
+          ],
+          "world_pos": {
+            "x": -55.11,
+            "z": -51.08
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:37.597767",
+      "sim_time": 778.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -62.69,
+        "y": 14.01,
+        "z": -51.38
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.68,
+          "bbox": [
+            235,
+            158,
+            305,
+            218
+          ],
+          "world_pos": {
+            "x": -56.99,
+            "z": -54.01
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:37.948208",
+      "sim_time": 778.9,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (vehiculo con placa cubierta)",
+      "position": {
+        "x": 39.01,
+        "y": 14.0,
+        "z": 56.45
+      },
+      "detections": [
+        {
+          "class": "vehiculo",
+          "confidence": 0.8,
+          "bbox": [
+            20,
+            28,
+            90,
+            87
+          ],
+          "world_pos": {
+            "x": 36.27,
+            "z": 50.28
+          }
+        },
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.599,
+          "bbox": [
+            300,
+            17,
+            364,
+            56
+          ],
+          "world_pos": {
+            "x": 35.66,
+            "z": 54.52
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:38.394537",
+      "sim_time": 779.2,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 37.1,
+        "y": 14.02,
+        "z": 56.31
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.711,
+          "bbox": [
+            194,
+            83,
+            264,
+            119
+          ],
+          "world_pos": {
+            "x": 35.41,
+            "z": 50.53
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:38.774171",
+      "sim_time": 779.5,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas",
+      "position": {
+        "x": 35.19,
+        "y": 14.02,
+        "z": 56.16
+      },
+      "detections": [
+        {
+          "class": "motocicleta",
+          "confidence": 0.661,
+          "bbox": [
+            162,
+            121,
+            206,
+            141
+          ],
+          "world_pos": {
+            "x": 35.64,
+            "z": 62.22
+          }
+        },
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.675,
+          "bbox": [
+            103,
+            106,
+            181,
+            140
+          ],
+          "world_pos": {
+            "x": 32.67,
+            "z": 58.91
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:53:39.220325",
+      "sim_time": 779.8,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": 33.28,
+        "y": 14.01,
+        "z": 56.01
+      },
+      "detections": [
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.796,
+          "bbox": [
+            169,
+            69,
+            195,
+            85
+          ],
+          "world_pos": {
+            "x": 32.19,
+            "z": 55.63
+          }
+        }
+      ]
+    }
+  ]
+}

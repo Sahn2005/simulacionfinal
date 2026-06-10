@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:52:43.090448",
+  "sim_time": 733.4,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "LOW",
+  "description": "Transito normal de personas",
+  "position": {
+    "x": 3.96,
+    "y": 14.02,
+    "z": 6.06
+  },
+  "detections": [
+    {
+      "class": "vehiculo",
+      "confidence": 0.869,
+      "bbox": [
+        163,
+        11,
+        201,
+        61
+      ],
+      "world_pos": {
+        "x": -3.09,
+        "z": 5.59
+      }
+    },
+    {
+      "class": "objeto_abandonado",
+      "confidence": 0.831,
+      "bbox": [
+        337,
+        77,
+        382,
+        133
+      ],
+      "world_pos": {
+        "x": 2.78,
+        "z": 7.12
+      }
+    }
+  ]
+}

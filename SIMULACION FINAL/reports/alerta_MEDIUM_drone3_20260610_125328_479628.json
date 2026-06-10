@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:53:28.479628",
+  "sim_time": 770.2,
+  "drone_id": 3,
+  "zone": "central",
+  "risk_level": "MEDIUM",
+  "description": "Aglomeracion inusual de personas detectada (zona: Periferia_Noreste)",
+  "position": {
+    "x": 68.5,
+    "y": 14.02,
+    "z": 66.81
+  },
+  "detections": [
+    {
+      "class": "motocicleta",
+      "confidence": 0.606,
+      "bbox": [
+        238,
+        89,
+        307,
+        114
+      ],
+      "world_pos": {
+        "x": 64.86,
+        "z": 72.31
+      }
+    },
+    {
+      "class": "objeto_abandonado",
+      "confidence": 0.747,
+      "bbox": [
+        203,
+        86,
+        245,
+        137
+      ],
+      "world_pos": {
+        "x": 62.64,
+        "z": 62.55
+      }
+    }
+  ]
+}

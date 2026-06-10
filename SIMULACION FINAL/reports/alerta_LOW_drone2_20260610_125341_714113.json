@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:53:41.714113",
+  "sim_time": 782.1,
+  "drone_id": 2,
+  "zone": "sur",
+  "risk_level": "LOW",
+  "description": "Actividad cotidiana en la via publica (zona: Callejon_Suroeste)",
+  "position": {
+    "x": -66.01,
+    "y": 14.01,
+    "z": -66.92
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.867,
+      "bbox": [
+        302,
+        200,
+        368,
+        233
+      ],
+      "world_pos": {
+        "x": -70.77,
+        "z": -71.05
+      }
+    }
+  ]
+}

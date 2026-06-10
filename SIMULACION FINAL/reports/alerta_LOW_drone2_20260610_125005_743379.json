@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:50:05.743379",
+  "sim_time": 602.2,
+  "drone_id": 2,
+  "zone": "sur",
+  "risk_level": "LOW",
+  "description": "Transito normal de personas (horario nocturno, zona: Callejon_Suroeste)",
+  "position": {
+    "x": -67.03,
+    "y": 14.0,
+    "z": -62.45
+  },
+  "detections": [
+    {
+      "class": "vehiculo",
+      "confidence": 0.703,
+      "bbox": [
+        144,
+        101,
+        175,
+        121
+      ],
+      "world_pos": {
+        "x": -64.63,
+        "z": -56.11
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:44:21.177931",
+  "sim_time": 319.7,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "LOW",
+  "description": "Transito normal de personas (horario nocturno, zona: Bodega_Abandonada)",
+  "position": {
+    "x": -67.51,
+    "y": 14.0,
+    "z": 23.7
+  },
+  "detections": [
+    {
+      "class": "vehiculo",
+      "confidence": 0.836,
+      "bbox": [
+        125,
+        144,
+        199,
+        182
+      ],
+      "world_pos": {
+        "x": -70.9,
+        "z": 31.22
+      }
+    }
+  ]
+}

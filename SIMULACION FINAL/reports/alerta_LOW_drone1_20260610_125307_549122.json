@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:53:07.549122",
+  "sim_time": 753.0,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "LOW",
+  "description": "Actividad cotidiana en la via publica (vehiculo con placa cubierta)",
+  "position": {
+    "x": 8.33,
+    "y": 14.22,
+    "z": 11.65
+  },
+  "detections": [
+    {
+      "class": "vehiculo_sospechoso",
+      "confidence": 0.766,
+      "bbox": [
+        159,
+        190,
+        207,
+        220
+      ],
+      "world_pos": {
+        "x": 6.84,
+        "z": 8.09
+      }
+    }
+  ]
+}

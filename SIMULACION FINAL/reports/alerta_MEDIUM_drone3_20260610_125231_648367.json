@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:52:31.648367",
+  "sim_time": 723.5,
+  "drone_id": 3,
+  "zone": "central",
+  "risk_level": "MEDIUM",
+  "description": "Aglomeracion inusual de personas detectada (~4 personas)",
+  "position": {
+    "x": 27.32,
+    "y": 14.0,
+    "z": 41.33
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.892,
+      "bbox": [
+        114,
+        104,
+        164,
+        119
+      ],
+      "world_pos": {
+        "x": 34.7,
+        "z": 49.05
+      }
+    },
+    {
+      "class": "grupo_personas",
+      "confidence": 0.931,
+      "bbox": [
+        333,
+        198,
+        388,
+        217
+      ],
+      "world_pos": {
+        "x": 31.88,
+        "z": 44.35
+      }
+    }
+  ]
+}

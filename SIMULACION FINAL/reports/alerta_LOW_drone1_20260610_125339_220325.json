@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:53:39.220325",
+  "sim_time": 779.8,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "LOW",
+  "description": "Actividad cotidiana en la via publica",
+  "position": {
+    "x": 33.28,
+    "y": 14.01,
+    "z": 56.01
+  },
+  "detections": [
+    {
+      "class": "objeto_abandonado",
+      "confidence": 0.796,
+      "bbox": [
+        169,
+        69,
+        195,
+        85
+      ],
+      "world_pos": {
+        "x": 32.19,
+        "z": 55.63
+      }
+    }
+  ]
+}

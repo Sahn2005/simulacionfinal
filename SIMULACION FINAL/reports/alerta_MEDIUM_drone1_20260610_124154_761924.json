@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:41:54.761924",
+  "sim_time": 189.1,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "MEDIUM",
+  "description": "Aglomeracion inusual de personas detectada (horario nocturno, zona: Bodega_Abandonada)",
+  "position": {
+    "x": -65.0,
+    "y": 14.0,
+    "z": 22.3
+  },
+  "detections": [
+    {
+      "class": "vehiculo",
+      "confidence": 0.895,
+      "bbox": [
+        51,
+        112,
+        84,
+        147
+      ],
+      "world_pos": {
+        "x": -57.57,
+        "z": 21.15
+      }
+    }
+  ]
+}

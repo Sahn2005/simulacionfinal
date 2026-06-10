@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:51:52.845619",
+  "sim_time": 690.6,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "MEDIUM",
+  "description": "Vehiculo detenido en zona de alta circulacion (horario nocturno, zona: Bodega_Abandonada)",
+  "position": {
+    "x": -64.32,
+    "y": 14.0,
+    "z": 22.27
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.858,
+      "bbox": [
+        338,
+        95,
+        400,
+        149
+      ],
+      "world_pos": {
+        "x": -58.73,
+        "z": 17.82
+      }
+    },
+    {
+      "class": "vehiculo",
+      "confidence": 0.776,
+      "bbox": [
+        32,
+        170,
+        63,
+        192
+      ],
+      "world_pos": {
+        "x": -61.36,
+        "z": 21.28
+      }
+    }
+  ]
+}

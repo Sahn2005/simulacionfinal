@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-10T12:47:34.849997",
+  "sim_time": 479.4,
+  "drone_id": 1,
+  "zone": "norte",
+  "risk_level": "HIGH",
+  "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (horario nocturno, zona: Bodega_Abandonada)",
+  "position": {
+    "x": -68.01,
+    "y": 14.02,
+    "z": 22.96
+  },
+  "detections": [
+    {
+      "class": "persona",
+      "confidence": 0.967,
+      "bbox": [
+        293,
+        142,
+        370,
+        184
+      ],
+      "world_pos": {
+        "x": -72.05,
+        "z": 15.0
+      }
+    },
+    {
+      "class": "motocicleta",
+      "confidence": 0.715,
+      "bbox": [
+        287,
+        53,
+        367,
+        80
+      ],
+      "world_pos": {
+        "x": -60.49,
+        "z": 15.09
+      }
+    }
+  ]
+}

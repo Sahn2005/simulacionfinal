@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:53:14.983176",
+  "sim_time": 759.7,
+  "drone_id": 3,
+  "zone": "central",
+  "risk_level": "MEDIUM",
+  "description": "Vehiculo detenido en zona de alta circulacion",
+  "position": {
+    "x": 41.81,
+    "y": 14.01,
+    "z": 10.19
+  },
+  "detections": [
+    {
+      "class": "actividad_sospechosa",
+      "confidence": 0.823,
+      "bbox": [
+        309,
+        33,
+        356,
+        52
+      ],
+      "world_pos": {
+        "x": 38.45,
+        "z": 12.63
+      }
+    }
+  ]
+}

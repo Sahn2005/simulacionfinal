@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-10T12:38:57.461390",
+  "sim_time": 21.4,
+  "drone_id": 2,
+  "zone": "sur",
+  "risk_level": "MEDIUM",
+  "description": "Aglomeracion inusual de personas detectada (vehiculo con placa cubierta, horario nocturno)",
+  "position": {
+    "x": 36.76,
+    "y": 14.21,
+    "z": -19.73
+  },
+  "detections": [
+    {
+      "class": "vehiculo_sospechoso",
+      "confidence": 0.832,
+      "bbox": [
+        320,
+        1,
+        393,
+        34
+      ],
+      "world_pos": {
+        "x": 38.02,
+        "z": -25.32
+      }
+    }
+  ]
+}

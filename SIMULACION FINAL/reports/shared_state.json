@@ -1,0 +1,498 @@
+{
+  "timestamp": "2026-06-10T12:54:04.943332",
+  "sim_time": 804.0,
+  "total_mensajes": 7300,
+  "total_alertas": 1994,
+  "alertas_por_nivel": {
+    "LOW": 1247,
+    "MEDIUM": 547,
+    "HIGH": 200
+  },
+  "drones": {
+    "1": {
+      "id": 1,
+      "zone": "norte",
+      "state": "PATROL",
+      "position": {
+        "x": -55.18,
+        "y": 14.0,
+        "z": 21.8
+      },
+      "dist": 3534.3,
+      "alertas": 1269,
+      "waypoint": 9
+    },
+    "2": {
+      "id": 2,
+      "zone": "sur",
+      "state": "PATROL",
+      "position": {
+        "x": -2.67,
+        "y": 14.02,
+        "z": -54.38
+      },
+      "dist": 3455.6,
+      "alertas": 1265,
+      "waypoint": 10
+    },
+    "3": {
+      "id": 3,
+      "zone": "central",
+      "state": "PATROL",
+      "position": {
+        "x": -17.33,
+        "y": 14.02,
+        "z": -38.71
+      },
+      "dist": 3770.8,
+      "alertas": 1380,
+      "waypoint": 8
+    }
+  },
+  "ultimas_alertas": [
+    {
+      "timestamp": "2026-06-10T12:54:01.718180",
+      "sim_time": 801.0,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "HIGH",
+      "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (~4 personas, zona: Bodega_Abandonada)",
+      "position": {
+        "x": -67.41,
+        "y": 14.01,
+        "z": 23.85
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.811,
+          "bbox": [
+            208,
+            169,
+            236,
+            226
+          ],
+          "world_pos": {
+            "x": -66.66,
+            "z": 16.44
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.699,
+          "bbox": [
+            309,
+            164,
+            329,
+            219
+          ],
+          "world_pos": {
+            "x": -61.43,
+            "z": 20.64
+          }
+        },
+        {
+          "class": "motocicleta",
+          "confidence": 0.642,
+          "bbox": [
+            273,
+            194,
+            344,
+            240
+          ],
+          "world_pos": {
+            "x": -67.26,
+            "z": 31.44
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:02.090637",
+      "sim_time": 801.3,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica (zona: Bodega_Abandonada)",
+      "position": {
+        "x": -68.12,
+        "y": 14.01,
+        "z": 22.79
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.735,
+          "bbox": [
+            249,
+            167,
+            274,
+            208
+          ],
+          "world_pos": {
+            "x": -64.24,
+            "z": 18.01
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:02.404555",
+      "sim_time": 801.6,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Aglomeracion inusual de personas detectada (zona: Bodega_Abandonada)",
+      "position": {
+        "x": -67.15,
+        "y": 14.0,
+        "z": 22.41
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.838,
+          "bbox": [
+            201,
+            102,
+            276,
+            135
+          ],
+          "world_pos": {
+            "x": -59.93,
+            "z": 17.25
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.767,
+          "bbox": [
+            136,
+            196,
+            166,
+            239
+          ],
+          "world_pos": {
+            "x": -62.2,
+            "z": 28.08
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:02.737308",
+      "sim_time": 801.9,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "HIGH",
+      "description": "Actividad sospechosa en zona de alto riesgo — Alerta maxima (vehiculo con placa cubierta, zona: Bodega_Abandonada)",
+      "position": {
+        "x": -65.23,
+        "y": 14.02,
+        "z": 22.31
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.693,
+          "bbox": [
+            108,
+            18,
+            137,
+            75
+          ],
+          "world_pos": {
+            "x": -70.52,
+            "z": 30.26
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.879,
+          "bbox": [
+            1,
+            130,
+            48,
+            165
+          ],
+          "world_pos": {
+            "x": -71.12,
+            "z": 29.4
+          }
+        },
+        {
+          "class": "vehiculo_sospechoso",
+          "confidence": 0.866,
+          "bbox": [
+            282,
+            73,
+            360,
+            96
+          ],
+          "world_pos": {
+            "x": -69.12,
+            "z": 16.18
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:03.080378",
+      "sim_time": 802.2,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": -5.47,
+        "y": 14.02,
+        "z": -60.57
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.907,
+          "bbox": [
+            300,
+            113,
+            369,
+            170
+          ],
+          "world_pos": {
+            "x": -1.37,
+            "z": -68.46
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.84,
+          "bbox": [
+            305,
+            113,
+            320,
+            170
+          ],
+          "world_pos": {
+            "x": -1.37,
+            "z": -68.46
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:03.418560",
+      "sim_time": 802.6,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": -3.97,
+        "y": 14.02,
+        "z": -60.42
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.791,
+          "bbox": [
+            254,
+            200,
+            321,
+            222
+          ],
+          "world_pos": {
+            "x": -8.74,
+            "z": -67.89
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.806,
+          "bbox": [
+            36,
+            37,
+            104,
+            62
+          ],
+          "world_pos": {
+            "x": -0.59,
+            "z": -62.69
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:03.747925",
+      "sim_time": 802.9,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas",
+      "position": {
+        "x": -59.49,
+        "y": 14.0,
+        "z": 22.02
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.674,
+          "bbox": [
+            117,
+            82,
+            141,
+            104
+          ],
+          "world_pos": {
+            "x": -58.86,
+            "z": 22.8
+          }
+        },
+        {
+          "class": "objeto_abandonado",
+          "confidence": 0.781,
+          "bbox": [
+            66,
+            111,
+            102,
+            167
+          ],
+          "world_pos": {
+            "x": -67.11,
+            "z": 25.16
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:04.101358",
+      "sim_time": 803.2,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "LOW",
+      "description": "Actividad cotidiana en la via publica",
+      "position": {
+        "x": -57.57,
+        "y": 14.02,
+        "z": 21.92
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.762,
+          "bbox": [
+            54,
+            39,
+            125,
+            80
+          ],
+          "world_pos": {
+            "x": -55.84,
+            "z": 28.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:04.444365",
+      "sim_time": 803.5,
+      "drone_id": 1,
+      "zone": "norte",
+      "risk_level": "MEDIUM",
+      "description": "Vehiculo detenido en zona de alta circulacion (~4 personas)",
+      "position": {
+        "x": -55.66,
+        "y": 14.01,
+        "z": 21.82
+      },
+      "detections": [
+        {
+          "class": "persona",
+          "confidence": 0.768,
+          "bbox": [
+            237,
+            181,
+            264,
+            222
+          ],
+          "world_pos": {
+            "x": -53.24,
+            "z": 29.19
+          }
+        },
+        {
+          "class": "grupo_personas",
+          "confidence": 0.926,
+          "bbox": [
+            114,
+            37,
+            194,
+            71
+          ],
+          "world_pos": {
+            "x": -50.02,
+            "z": 21.08
+          }
+        },
+        {
+          "class": "vehiculo",
+          "confidence": 0.863,
+          "bbox": [
+            250,
+            118,
+            306,
+            133
+          ],
+          "world_pos": {
+            "x": -51.53,
+            "z": 19.82
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-10T12:54:04.786894",
+      "sim_time": 803.8,
+      "drone_id": 2,
+      "zone": "sur",
+      "risk_level": "LOW",
+      "description": "Transito normal de personas (~4 personas)",
+      "position": {
+        "x": -2.67,
+        "y": 14.02,
+        "z": -54.38
+      },
+      "detections": [
+        {
+          "class": "grupo_personas",
+          "confidence": 0.835,
+          "bbox": [
+            167,
+            179,
+            193,
+            224
+          ],
+          "world_pos": {
+            "x": 0.67,
+            "z": -52.04
+          }
+        },
+        {
+          "class": "persona",
+          "confidence": 0.811,
+          "bbox": [
+            172,
+            179,
+            187,
+            224
+          ],
+          "world_pos": {
+            "x": 0.67,
+            "z": -52.04
+          }
+        }
+      ]
+    }
+  ]
+}
